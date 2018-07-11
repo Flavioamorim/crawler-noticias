@@ -21,18 +21,21 @@ app.get('/', function (req, res) {
         request(urlUol, function (error, response, html) {    
             if (!error) {
                 var $ = cheerio.load(html);
+                var iUol = 0 ;
                 $('a').each(function (index, element) {
                     if ($(this).hasClass('opacity-group')) {
-                        var link = $(this).attr('href');
-                        var title = $(this).find('img').attr('title');
-                        var imagem = $(this).find('img').attr('src');
-                        var news = {
-                            link: link,
-                            title: title,
-                            imagem: imagem
+                        if (iUol <= 15){
+                            var link = $(this).attr('href');
+                            var title = $(this).find('img').attr('title');
+                            var imagem = $(this).find('img').attr('src');
+                            var news = {
+                                link: link,
+                                title: title,
+                                imagem: imagem
+                            }
+                            jsonUol.push(news);
+                            iUol++;
                         }
-                        jsonUol.push(news);
-                        console.log(news)
                     }
                 });
                 fs.writeFile('../../production/public/uol.json', JSON.stringify(jsonUol, null, 4), function (err) {
@@ -68,7 +71,7 @@ app.get('/', function (req, res) {
             }
         });
     // }, 30 * 60 * 1000);     
-    },  30 * 60 * 1000);     
+    },  5000);     
 
 });
 
