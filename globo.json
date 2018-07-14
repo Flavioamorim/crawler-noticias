@@ -1,1 +1,62 @@
-teste gagag
+[
+    {
+        "link": "https://globoesporte.globo.com/programas/globo-esporte/noticia/novo-app-globoesportecom-tem-noticias-tabelas-e-videos-do-seu-time-e-da-copa.ghtml",
+        "title": "Fique ligado"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/roger-guedes-aparece-de-novo-e-thiago-larghi-esconde-substituto-do-artilheiro.ghtml",
+        "title": "Róger Guedes aparece de novo, e Thiago Larghi esconde substituto do artilheiro"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/atletico-mg-encaminha-emprestimo-de-cazares-para-o-al-ahli-de-dubai-por-um-ano.ghtml",
+        "title": "Atlético-MG encaminha empréstimo de Cazares para o Al Ahli por um ano"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/galo-tem-solucoes-no-elenco-para-vaga-de-guedes-mas-ida-ao-mercado-e-valida.ghtml",
+        "title": "Galo tem soluções no elenco para vaga de Guedes, mas ida ao mercado é válida"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/proposta-chinesa-saida-em-silencio-as-ultimas-24-horas-de-roger-guedes-no-galo.ghtml",
+        "title": "Proposta chinesa, saída em silêncio... As últimas 24 horas de Róger Guedes no Galo "
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/atletico-mg-aumenta-percentual-de-valor-recebido-por-saida-de-roger-guedes.ghtml",
+        "title": "Galo aumenta percentual de valor recebido por saída de Róger Guedes; entenda como"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/sem-guedes-e-cazares-jogadores-iniciam-preparacao-para-encarar-o-gremio.ghtml",
+        "title": "Sem Guedes e Cazares, jogadores seguem preparação para encarar o Grêmio"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/roger-guedes-rescinde-com-atletico-mg-e-tem-ida-encaminhada-para-o-futebol-chines.ghtml",
+        "title": "Róger Guedes rescinde com Galo e tem ida acertada para o Shandong Luneng"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/roger-guedes-e-liberado-de-treino-e-aumenta-possiblidade-de-saida-do-galo.ghtml",
+        "title": "Róger Guedes é liberado de treino e aumenta possibilidade de saída do Galo"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/fifa-manda-galo-pagar-divida-por-otero-sob-pena-de-proibir-clube-de-contratar.ghtml",
+        "title": "Fifa manda Galo pagar dívida por Otero sob pena de proibir clube de contratar"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/porto-descarta-pagar-12-milhoes-de-euros-por-roger-guedes-diz-jornal-portugues.ghtml",
+        "title": "Porto descarta pagar 12 milhões de euros por Róger Guedes, diz jornal português"
+    },
+    {
+        "link": "https://globoesporte.globo.com/mg/futebol/noticia/globoesportecom-transmite-corinthians-x-atletico-mg-pelo-brasileirao-sub-20.ghtml",
+        "title": "GloboEsporte.com transmite Corinthians x Atlético-MG pelo Brasileirão Sub-20"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/com-um-destro-e-um-canhoto-atletico-mg-tera-zaga-inedita-na-volta-do-brasileirao.ghtml",
+        "title": "Com um destro e um canhoto, Atlético-MG terá zaga inédita na volta do Brasileirão"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/juninho-celebra-chance-no-time-titular-e-ve-jogo-contra-o-gremio-como-fundamental.ghtml",
+        "title": "Juninho celebra chance no time titular e vê jogo contra o Grêmio como fundamental"
+    },
+    {
+        "link": "https://globoesporte.globo.com/futebol/times/atletico-mg/noticia/gustavo-blanco-e-operado-por-rodrigo-lasmar-e-inicia-processo-de-recuperacao.ghtml",
+        "title": "Gustavo Blanco é operado por Rodrigo Lasmar e inicia processo de recuperação"
+    }
+]

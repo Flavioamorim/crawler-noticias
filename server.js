@@ -2,6 +2,8 @@ var express = require('express');
 var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
+const Nightmare = require('nightmare');
+
 var app = express();
 
 var json = [];
@@ -42,7 +44,8 @@ app.get('/', function (req, res) {
                     }                 
                 });
 
-                fs.writeFile('../../production/public/uol.json', JSON.stringify(jsonUol, null, 4));
+                //fs.writeFile('../../production/public/uol.json', JSON.stringify(jsonUol, null, 4));
+                fs.writeFile('uol.json', JSON.stringify(jsonUol, null, 4));
                 iUol = 0;                
                 jsonUol = [];
             } else {
@@ -50,36 +53,46 @@ app.get('/', function (req, res) {
             }
         });                
 
-
-        request(url, function (error, response, html) {
-            if (!error) {
-                var $ = cheerio.load(html);
-                var iGlobo = 0;
-                $('a').each(function (index, element) {
-                    if ($(this).hasClass('feed-post-link') ){
-                        if (iGlobo <= 15) {
-                            var link = $(this).attr('href');
-                            var title = $(this).text();
-                            var news = {
-                                link: link,
-                                title: title
+        const getGlobo = function () {
+            let nightmare = Nightmare({ show: true });
+            nightmare
+                .goto(url)
+                .scrollTo(3500, 3500)
+                .wait(8000)
+                .evaluate(() => document.body.innerHTML)
+                .end()
+                .then((data) => {
+                    var $ = cheerio.load(data);
+                    console.log('oiiiiiiii')
+                    $('a').each(function (index, element) {
+                        var iGlobo = 0;
+                        if ($(this).hasClass('feed-post-link') ){
+                            if (iGlobo <= 15) {
+                                var link = $(this).attr('href');
+                                var title = $(this).text();
+                                var news = {
+                                    link: link,
+                                    title: title
+                                }
+                                json.push(news);                            
                             }
-                            json.push(news);                            
                         }
-                    }
+
+                    });
+                    fs.writeFile('globo.json', JSON.stringify(json, null, 4), function (err) {
+                        if (err)
+                            console.log('Error on updating');
+                    });
+                    iGlobo = 0;
+                    json = [];                    
+                })
+                .catch((error) => {
+                    console.error('Search failed:', error);
                 });
-                
-                fs.writeFile('../../production/public/globo.json', JSON.stringify(json, null, 4) , function (err) {
-                    if (err)
-                        console.log('Error on updating');
-                });
-                iGlobo = 0;
-                json = [];
-            }else{
-                console.log("Erro ao buscar informacoes")
-            }
-        });
-    // }, 30 * 60 * 1000);     
+        } 
+        
+        getGlobo();
+    // }, 25000);     
     }, 30 * 60 * 1000);     
 
 });

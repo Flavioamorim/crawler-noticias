@@ -1,5 +1,45 @@
 [
     {
+        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/14/atletico-mg-gasta-muito-dinheiro-reforca-ataque-e-ainda-busca-zagueiro.htm",
+        "title": "Atlético-MG gasta muito dinheiro, reforça ataque e ainda busca zagueiro - Bruno Cantini/Atlético-MG",
+        "imagem": "https://conteudo.imguol.com.br/c/esporte/c7/2018/06/12/yimmy-chara-e-apresentado-no-atletico-mg-1528831291728_142x100.jpg"
+    },
+    {
+        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/adilson-sofre-lesao-na-panturrilha-e-desfalca-o-atletico-mg-no-brasileirao.htm",
+        "title": "Adilson sofre lesão na panturrilha e desfalca o Atlético-MG no Brasileirão - Bruno Cantini/Divulgação/Atlético-MG",
+        "imagem": "https://conteudo.imguol.com.br/c/esporte/fb/2017/04/20/adilson-volante-do-atletico-mg-1492718433518_142x100.jpg"
+    },
+    {
+        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/palmeiras-ve-ganho-triplo-ao-segurar-dudu-tirar-guedes-de-rival-e-lucrar.htm",
+        "title": "Palmeiras vê \"ganho triplo\" ao segurar Dudu, tirar Guedes de rival e lucrar - Miguel Schincariol/Getty Images",
+        "imagem": "https://conteudo.imguol.com.br/c/esporte/43/2018/06/02/dudu-comemora-o-terceiro-gol-do-palmeiras-diante-do-sao-paulo-1527992595757_142x100.jpg"
+    },
+    {
+        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/13/chineses-fecharam-guedes-por-emprestimo-em-manobra-para-nao-pagar-imposto.htm",
+        "title": "Chineses fecharam Guedes por empréstimo em manobra para não pagar imposto - Pedro Souza/Atlético-MG",
+        "imagem": "https://conteudo.imguol.com.br/c/esporte/85/2018/05/21/roger-guedes-em-acao-pelo-atletico-mg-1526929072654_142x100.jpg"
+    },
+    {
+        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/atletico-mg-anuncia-transferencia-de-roger-guedes-para-o-shandong-luneng.htm",
+        "title": "Atlético-MG anuncia transferência de Róger Guedes para o Shandong Luneng - Pedro Souza/Atlético-MG",
+        "imagem": "https://conteudo.imguol.com.br/c/esporte/85/2018/05/21/roger-guedes-em-acao-pelo-atletico-mg-1526929072654_142x100.jpg"
+    },
+    {
+        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/palmeiras-encaminha-venda-roger-guedes-ao-shandong-por-10-milhoes-de-euros.htm",
+        "title": "Palmeiras encaminha venda de Guedes para o Shandong por 10 milhões de euros - Pedro Vale/AGIF",
+        "imagem": "https://conteudo.imguol.com.br/c/esporte/0b/2018/04/29/roger-guedes-comemora-gol-do-atletico-mg-antes-de-anulacao-1525032910009_142x100.jpg"
+    },
+    {
+        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/roger-guedes-fica-fora-de-treino-e-aumenta-rumor-sobre-saida-do-atletico-mg.htm",
+        "title": "Róger Guedes fica fora do treino e aumenta expectativa de deixar o Atlético - Daniel Vorley/AGIF",
+        "imagem": "https://conteudo.imguol.com.br/c/esporte/80/2018/05/05/roger-guedes-se-ajoelha-apos-marcar-para-o-atletico-mg-contra-o-sao-paulo-1525566193117_142x100.jpg"
+    },
+    {
+        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/12/porto-prepara-ultima-oferta-por-roger-guedes-chineses-entram-na-briga.htm",
+        "title": "Porto prepara última oferta por Róger Guedes; chineses entram na briga - Bruno Cantini/Atlético-MG",
+        "imagem": "https://conteudo.imguol.com.br/c/esporte/84/2018/04/23/roger-guedes-atacante-do-atletico-mg-1524511411520_142x100.jpg"
+    },
+    {
         "link": "https://esporte.uol.com.br/futebol/campeonatos/brasileiro/serie-a/ultimas-noticias/2018/07/11/arouca-assina-contrato-com-o-vitoria-ate-dezembro.htm",
         "title": "Arouca assina contrato com o Vitória até dezembro - Divulgação/Vitória",
         "imagem": "https://conteudo.imguol.com.br/c/esporte/6e/2018/07/11/arouca-e-o-novo-reforco-do-vitoria-1531327483455_142x100.jpg"
@@ -38,45 +78,5 @@
         "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/09/bremer-passa-em-exames-medicos-do-torino-e-assinara-contrato-na-terca.htm",
         "title": "Zagueiro do Atlético-MG passa em exames e assinará com o Torino nesta terça - Bruno Cantini/Atlético-MG",
         "imagem": "https://conteudo.imguol.com.br/c/esporte/55/2017/07/17/zagueiro-bremer-do-atletico-mg-1500321056546_142x100.jpg"
-    },
-    {
-        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/09/leandrinho-chega-em-bh-para-realizar-exames-e-assinar-com-o-galo.htm",
-        "title": "Leandrinho chega a BH para realizar exames e assinar com o Atlético-MG - Divulgação/Ponte Preta",
-        "imagem": "https://conteudo.imguol.com.br/c/esporte/7b/2017/01/12/leandrinho-atacante-da-ponte-preta-1484268288883_142x100.jpg"
-    },
-    {
-        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/08/atletico-mg-libera-zagueiro-para-viajar-a-italia-e-fazer-exames-no-torino.htm",
-        "title": "Atlético-MG libera zagueiro para viajar à Itália e fazer exames no Torino - Bruno Cantini/Atlético",
-        "imagem": "https://conteudo.imguol.com.br/c/parceiros/6b/2017/07/07/bremer-ja-conta-com-a-confianca-do-tecnico-do-atletico-mg-1499448137652_v2_142x100.jpg"
-    },
-    {
-        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/07/atletico-mg-avanca-conversa-e-pode-vender-jovem-zagueiro-para-o-torino-ita.htm",
-        "title": "Negociação avança, e Atlético-MG pode vender zagueiro para o Torino - Bruno Cantini/Atlético",
-        "imagem": "https://conteudo.imguol.com.br/c/parceiros/6b/2017/07/07/bremer-ja-conta-com-a-confianca-do-tecnico-do-atletico-mg-1499448137652_v2_142x100.jpg"
-    },
-    {
-        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/06/atletico-mg-escuta-oferta-de-arabes-de-us-15-mi-e-pede-mais-por-cazares.htm",
-        "title": "Atlético-MG escuta oferta de árabes de US$ 1,5 mi e pede mais por Cazares - Marlon Costa/Futura Press/Estadão Conteúdo",
-        "imagem": "https://conteudo.imguol.com.br/c/esporte/88/2018/05/30/cazares-comemora-gol-do-atletico-mg-diante-do-sport-em-jogo-na-ilha-do-retiro-pelo-campeonato-brasileiro-2018-1527725669808_142x100.jpg"
-    },
-    {
-        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/lancepress/2018/07/05/com-lesao-de-blanco-elias-se-diz-pronto-para-assumir-vaga-de-titular.htm",
-        "title": "Com lesão de Blanco, Elias se diz pronto para assumir vaga de titular - Thomás Santos/AGIF",
-        "imagem": "https://conteudo.imguol.com.br/c/esporte/b0/2017/12/03/elias-comemora-apos-marcar-pelo-atletico-mg-contra-o-gremio-1512332980985_142x100.jpg"
-    },
-    {
-        "link": "https://esporte.uol.com.br/futebol/copa-do-mundo/2018/noticias/2018/07/05/legado-do-copo-heranca-de-2014-rende-dinheiro-para-clubes-e-chega-a-cbf.htm",
-        "title": "Legado do copo: herança de 2014 rende dinheiro para clubes e chega à CBF - Julian Finney/Getty Images",
-        "imagem": "https://conteudo.imguol.com.br/c/copadomundo/2018/Imagem/a0/2018/06/21/copo-de-cerveja-no-estadio-de-kaliningrado-antes-de-croacia-x-nigeria-1529597821820_v2_142x100.jpg"
-    },
-    {
-        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/05/palmeiras-cumpre-palavra-ao-atletico-mg-e-faz-jogo-duro-por-venda-de-guedes.htm",
-        "title": "Palmeiras cumpre palavra ao Atlético-MG e faz jogo-duro por venda de Guedes - Pedro Vale/AGIF",
-        "imagem": "https://conteudo.imguol.com.br/c/esporte/6f/2018/05/19/roger-guedes-comemora-gol-do-atletico-mg-sobre-o-cruzeiro-1526762228844_142x100.jpg"
-    },
-    {
-        "link": "https://esporte.uol.com.br/futebol/ultimas-noticias/2018/07/04/atletico-mg-libera-volante-arouca-para-acertar-com-o-vitoria.htm",
-        "title": "Atlético-MG libera volante Arouca para acertar com o Vitória - Bruno Cantini/Clube Atlético Mineiro",
-        "imagem": "https://conteudo.imguol.com.br/c/esporte/11/2018/02/02/arouca-ja-disputou-duas-partidas-do-campeonato-mineiro-pelo-atletico-1517606020317_142x100.jpg"
     }
 ]
