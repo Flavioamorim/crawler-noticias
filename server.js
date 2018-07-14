@@ -45,7 +45,7 @@ app.get('/', function (req, res) {
                 });
 
                 //fs.writeFile('../../production/public/uol.json', JSON.stringify(jsonUol, null, 4));
-                fs.writeFile('uol.json', JSON.stringify(jsonUol, null, 4));
+                fs.writeFile('../../production/public/uol.json', JSON.stringify(jsonUol, null, 4));
                 iUol = 0;                
                 jsonUol = [];
             } else {
@@ -79,7 +79,7 @@ app.get('/', function (req, res) {
                         }
 
                     });
-                    fs.writeFile('globo.json', JSON.stringify(json, null, 4), function (err) {
+                    fs.writeFile('../../production/public/globo.json', JSON.stringify(json, null, 4), function (err) {
                         if (err)
                             console.log('Error on updating');
                     });
