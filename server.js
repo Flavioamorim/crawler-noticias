@@ -44,8 +44,8 @@ app.get('/', function (req, res) {
                     }                 
                 });
 
-                //fs.writeFile('../../production/public/uol.json', JSON.stringify(jsonUol, null, 4));
-                fs.writeFile('../../production/public/uol.json', JSON.stringify(json, null, 4), function (err) {
+                fs.writeFile('../../production/public/uol.json', JSON.stringify(jsonUol, null, 4), function (err) {
+                //fs.writeFile('uol.json', JSON.stringify(json, null, 4), function (err) {
                     if (err)
                         console.log('Error on updating');
                 });
@@ -82,7 +82,8 @@ app.get('/', function (req, res) {
                         }
 
                     });
-                    fs.writeFile('../../production/public/globo.json', JSON.stringify(json, null, 4), function (err) {
+                    // fs.writeFile('../../production/public/globo.json', JSON.stringify(jsonUol, null, 4), function (err) {
+                    fs.writeFile('globo.json', JSON.stringify(json, null, 4), function (err) {
                         if (err)
                             console.log('Error on updating');
                     });
@@ -95,8 +96,8 @@ app.get('/', function (req, res) {
         } 
         
         getGlobo();
-     }, 25000);     
-    //}, 30 * 60 * 1000);     
+    //  }, 25000);     
+    }, 30 * 60 * 1000);     
 
 });
 
