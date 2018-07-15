@@ -83,9 +83,12 @@ app.get('/', function (req, res) {
 
                     });
                     // fs.writeFile('../../production/public/globo.json', JSON.stringify(jsonUol, null, 4), function (err) {
-                    fs.writeFile('globo.json', JSON.stringify(json, null, 4), function (err) {
-                        if (err)
+                    fs.writeFile('../../production/public/globo.json', JSON.stringify(json, null, 4), function (err) {
+                        if (err){
+                            console.log('erro na globo');
+                        }else{
                             console.log('Error on updating');
+                        }
                     });
                     iGlobo = 0;
                     json = [];                    
@@ -96,8 +99,8 @@ app.get('/', function (req, res) {
         } 
         
         getGlobo();
-    //  }, 25000);     
-    }, 30 * 60 * 1000);     
+      }, 25000);     
+   // }, 30 * 60 * 1000);     
 
 });
 
